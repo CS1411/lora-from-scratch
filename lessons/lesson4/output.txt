@@ -1,0 +1,20 @@
+what c_attn actually is: Conv1D  weight (768, 2304) 
+
+identical to the base at injection: True  (every B=0, so every detour is a no-op)
+
+trainable :      147,456
+frozen    :   81,912,576
+-> 0.18% of the model trains (557x fewer weights)
+
+  transformer.h.0.attn.c_attn.A            (8, 768)
+  transformer.h.0.attn.c_attn.B            (2304, 8)
+  transformer.h.1.attn.c_attn.A            (8, 768)
+  transformer.h.1.attn.c_attn.B            (2304, 8)
+  transformer.h.2.attn.c_attn.A            (8, 768)
+  transformer.h.2.attn.c_attn.B            (2304, 8)
+  transformer.h.3.attn.c_attn.A            (8, 768)
+  transformer.h.3.attn.c_attn.B            (2304, 8)
+  transformer.h.4.attn.c_attn.A            (8, 768)
+  transformer.h.4.attn.c_attn.B            (2304, 8)
+  transformer.h.5.attn.c_attn.A            (8, 768)
+  transformer.h.5.attn.c_attn.B            (2304, 8)

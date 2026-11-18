@@ -1,0 +1,3 @@
+at init, LoRA(x) == base(x): True  (because B=0, so B@A=0)
+trainable (A,B): 24,576  frozen (W,bias): 1,771,776  -> 1.4% trainable
+after nudging B, LoRA(x) != base(x): True  (detour is now live)
