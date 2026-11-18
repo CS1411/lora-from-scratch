@@ -1,0 +1,14 @@
+trainable 147,456 / 82,064,640 = 0.18%
+
+{'loss': '2.589', 'grad_norm': '2.268', 'learning_rate': '0.0008911', 'epoch': '0.6667'}
+{'loss': '1.583', 'grad_norm': '2.737', 'learning_rate': '0.00078', 'epoch': '1.333'}
+{'loss': '0.9857', 'grad_norm': '4.835', 'learning_rate': '0.0006689', 'epoch': '2'}
+{'loss': '0.6678', 'grad_norm': '4.573', 'learning_rate': '0.0005578', 'epoch': '2.667'}
+{'loss': '0.2768', 'grad_norm': '0.6303', 'learning_rate': '0.0004467', 'epoch': '3.333'}
+{'loss': '0.1395', 'grad_norm': '0.8752', 'learning_rate': '0.0003356', 'epoch': '4'}
+{'loss': '0.1325', 'grad_norm': '2.443', 'learning_rate': '0.0002244', 'epoch': '4.667'}
+{'loss': '0.08846', 'grad_norm': '0.3606', 'learning_rate': '0.0001133', 'epoch': '5.333'}
+{'loss': '0.0569', 'grad_norm': '0.07928', 'learning_rate': '2.222e-06', 'epoch': '6'}
+{'train_runtime': '590.2', 'train_samples_per_second': '6.099', 'train_steps_per_second': '0.762', 'train_loss': '0.7244', 'epoch': '6'}
+
+saved lora-adapter.pt: 613,339 bytes (12 adapter tensors + the 6 label rows)

@@ -10,7 +10,7 @@ Papers: [LoRA (Hu et al., 2021)](https://arxiv.org/abs/2106.09685) and [QLoRA (D
 - [x] Lesson 2 - The math of low-rank
 - [x] Lesson 3 - Build LoRALinear from scratch
 - [x] Lesson 4 - Inject it into GPT-2
-- [ ] Lesson 5 - Train just the adapter
+- [x] Lesson 5 - Train just the adapter
 - [ ] Lesson 6 - Does it match full fine-tuning?
 - [ ] Lesson 7 - Merge and swap adapters
 - [ ] Lesson 8 - QLoRA
