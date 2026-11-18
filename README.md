@@ -11,7 +11,7 @@ Papers: [LoRA (Hu et al., 2021)](https://arxiv.org/abs/2106.09685) and [QLoRA (D
 - [x] Lesson 3 - Build LoRALinear from scratch
 - [x] Lesson 4 - Inject it into GPT-2
 - [x] Lesson 5 - Train just the adapter
-- [ ] Lesson 6 - Does it match full fine-tuning?
+- [x] Lesson 6 - Does it match full fine-tuning?
 - [ ] Lesson 7 - Merge and swap adapters
 - [ ] Lesson 8 - QLoRA
 - [ ] Completion test
