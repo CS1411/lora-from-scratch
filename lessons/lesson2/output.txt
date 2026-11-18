@@ -1,0 +1,12 @@
+a 768x768 update = 589,824 numbers if stored in full
+
+ rank r    % of update captured   LoRA params (2*d*r)
+      1                  19.6%               1,536
+      2                  38.5%               3,072
+      4                  72.1%               6,144
+      8                 100.0%              12,288
+     16                 100.0%              24,576
+     64                 100.0%              98,304
+    768                 100.0%             589,824 <- full dW
+
+At rank 8: ~100% of the update, for 12,288 params, 48x smaller than the full 589,824.
