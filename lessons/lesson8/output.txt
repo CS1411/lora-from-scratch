@@ -1,0 +1,9 @@
+fp32 frozen base + adapter : 95.8%
+quantized 81,069,312 frozen weights in 25 layers (mean relative error 13.1%)
+4-bit frozen base + adapter: 91.7%
+
+memory to FINE-TUNE, by method (70B model):
+  full fine-tune, fp32      :   1,120 GB
+  LoRA, fp16 frozen base    :     142 GB
+  QLoRA, 4-bit frozen base  :      37 GB
+  a single 80 GB GPU        :      80 GB

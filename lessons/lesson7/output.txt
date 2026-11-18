@@ -1,0 +1,20 @@
+{'loss': '9.812', 'grad_norm': '0.5247', 'learning_rate': '0.0006711', 'epoch': '1'}
+{'loss': '3.294', 'grad_norm': '0.5538', 'learning_rate': '0.0003378', 'epoch': '2'}
+{'loss': '3.186', 'grad_norm': '0.911', 'learning_rate': '4.444e-06', 'epoch': '3'}
+{'train_runtime': '219.6', 'train_samples_per_second': '8.197', 'train_steps_per_second': '1.025', 'train_loss': '5.431', 'epoch': '3'}
+
+saved lora-voice.pt: 594,613 bytes (12 tensors)
+base, no adapter : The parties hereby agree that the parties agree to the terms of the Agreement.            
++ voice adapter  : The parties hereby agree that the terms and conditions of this Agreement shall be governed by the laws of the State of C
++ clause adapter : tags the New York clause as 'Governing Laws'
+  (one base in memory throughout, only 12 small tensors changed)
+
+after merging into W:
+  c_attn is a plain Conv1D again, no wrapper to ship
+  same prediction: 'Governing Laws'
+  logits agree to float32 round-off: max |diff| = 1.8e-04
+
+inference cost, per token, per layer:
+  base c_attn :  1,769,472 multiply-adds
+  LoRA detour :     24,576 (+1.39%)
+  merged      :  1,769,472 (+0.00%), the detour is folded into W
